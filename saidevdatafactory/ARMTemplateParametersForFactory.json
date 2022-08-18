@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "saidevdatafactory"
 		},
+		"saidevAzureBlobStorage2_connectionString": {
+			"value": ""
+		},
 		"AzureBlobStorage1_properties_typeProperties_connectionString_secretName": {
 			"value": "dev-connectionstring"
 		},

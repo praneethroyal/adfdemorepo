@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "saidevdatafactory"
 		},
+		"saidevAzureBlobStorage2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'saidevAzureBlobStorage2'"
+		},
 		"AzureBlobStorage1_properties_typeProperties_connectionString_secretName": {
 			"type": "string",
 			"defaultValue": "dev-connectionstring"
@@ -41,6 +45,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"saidevAzureBlobStorage2_connectionString": {
+						"value": "[parameters('saidevAzureBlobStorage2_connectionString')]"
 					},
 					"ls_AzureKeyVault_properties_typeProperties_baseUrl": {
 						"value": "[parameters('ls_AzureKeyVault_properties_typeProperties_baseUrl')]"
