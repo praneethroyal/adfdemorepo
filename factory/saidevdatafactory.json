@@ -1,0 +1,9 @@
+{
+	"name": "saidevdatafactory",
+	"location": "australiasoutheast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "14ad6c12-2c8d-4aa3-bb2f-a03348497110",
+		"tenantId": "eee26b35-91b5-418e-9e68-c0233813b9a5"
+	}
+}

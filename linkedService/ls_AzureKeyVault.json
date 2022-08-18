@@ -1,0 +1,12 @@
+{
+	"name": "ls_AzureKeyVault",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "linked services for my key vault",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://saikeyvaulst.vault.azure.net/"
+		}
+	}
+}
