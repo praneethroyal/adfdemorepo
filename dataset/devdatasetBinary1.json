@@ -1,0 +1,19 @@
+{
+	"name": "devdatasetBinary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "saidevAzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "blob.txt",
+				"folderPath": "input",
+				"container": "saidevcontainer"
+			}
+		}
+	}
+}

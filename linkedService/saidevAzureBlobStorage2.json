@@ -1,0 +1,12 @@
+{
+	"name": "saidevAzureBlobStorage2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=saidevstorageaccount;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE2Qzc1RDVFLTk2NUItNDIyOS04M0E5LUM3NjE0OTZEQzZFMF9hODU0YzU2Zi0xZmI3LTRjNzgtOWFhYi03MDVhNTAwOTgwY2IiDQp9"
+		}
+	}
+}
