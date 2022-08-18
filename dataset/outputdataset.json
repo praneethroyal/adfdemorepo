@@ -1,0 +1,19 @@
+{
+	"name": "outputdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_for_source_AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "outputdataset",
+				"folderPath": "output",
+				"container": "saidevcontainer"
+			}
+		}
+	}
+}

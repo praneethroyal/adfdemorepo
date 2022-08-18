@@ -1,0 +1,19 @@
+{
+	"name": "source_dataset_dev",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_for_source_AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "blob.txt",
+				"folderPath": "input",
+				"container": "saidevcontainer"
+			}
+		}
+	}
+}
