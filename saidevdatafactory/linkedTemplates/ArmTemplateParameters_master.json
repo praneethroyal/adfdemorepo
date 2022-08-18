@@ -11,7 +11,13 @@
 		"AzureBlobStorage1_properties_typeProperties_connectionString_secretName": {
 			"value": "dev-connectionstring"
 		},
+		"LS_for_source_AzureBlobStorage_properties_typeProperties_connectionString_secretName": {
+			"value": "dev-connectionstring"
+		},
 		"ls_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://saikeyvaulst.vault.azure.net/"
+		},
+		"ls_saidevAzureKeyVault_properties_typeProperties_baseUrl": {
 			"value": "https://saikeyvaulst.vault.azure.net/"
 		},
 		"containerUri": {

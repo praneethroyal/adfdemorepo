@@ -15,7 +15,15 @@
 			"type": "string",
 			"defaultValue": "dev-connectionstring"
 		},
+		"LS_for_source_AzureBlobStorage_properties_typeProperties_connectionString_secretName": {
+			"type": "string",
+			"defaultValue": "dev-connectionstring"
+		},
 		"ls_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://saikeyvaulst.vault.azure.net/"
+		},
+		"ls_saidevAzureKeyVault_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://saikeyvaulst.vault.azure.net/"
 		},
@@ -52,8 +60,14 @@
 					"ls_AzureKeyVault_properties_typeProperties_baseUrl": {
 						"value": "[parameters('ls_AzureKeyVault_properties_typeProperties_baseUrl')]"
 					},
+					"ls_saidevAzureKeyVault_properties_typeProperties_baseUrl": {
+						"value": "[parameters('ls_saidevAzureKeyVault_properties_typeProperties_baseUrl')]"
+					},
 					"AzureBlobStorage1_properties_typeProperties_connectionString_secretName": {
 						"value": "[parameters('AzureBlobStorage1_properties_typeProperties_connectionString_secretName')]"
+					},
+					"LS_for_source_AzureBlobStorage_properties_typeProperties_connectionString_secretName": {
+						"value": "[parameters('LS_for_source_AzureBlobStorage_properties_typeProperties_connectionString_secretName')]"
 					}
 				}
 			},
